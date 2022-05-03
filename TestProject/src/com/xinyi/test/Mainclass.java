@@ -25,11 +25,8 @@ public class Mainclass {
 		System.out.println(anwser);
 		
 		in.close();
-		
-		RandomNumber mersenne = new MersenneTwister();
-		
-		double random = mersenne.getNext();
-		System.out.println(Arrays.toString(random));
+
+	
 
 	}
 	
